@@ -1,0 +1,50 @@
+{
+  "name": "@bouncelayer/sdk",
+  "version": "1.0.4",
+  "description": "Official TypeScript & Node.js SDK for BounceLayer Email Verification API (https://bouncelayer.com/)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "node --test"
+  },
+  "homepage": "https://bouncelayer.com/",
+  "bugs": {
+    "url": "https://bouncelayer.com/contact",
+    "email": "support@bouncelayer.com"
+  },
+  "keywords": [
+    "bouncelayer",
+    "email-verification",
+    "email-validator",
+    "email-verifier",
+    "smtp-verifier",
+    "deliverability",
+    "email-checker",
+    "rfc5321",
+    "disposable-email-detector",
+    "bulk-email-verification",
+    "mcp",
+    "email-validation",
+    "email-verification-api",
+    "typescript"
+  ],
+  "author": "BounceLayer <support@bouncelayer.com> (https://bouncelayer.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BounceLayer/bouncelayer-node.git"
+  }
+}
